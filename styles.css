@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    margin-bottom: 20px; /* Adjust margin as needed */
+    position: relative; /* Enable positioning */
+}
+
+.logo img {
+    width: 150px;
+}
+
+.signin-box {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.signin-box h2 {
+    font-weight: bold;
+}
+
+.light-text {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.blue-link {
+    color: #0078d7;
+    text-decoration: none;
+}
+
+.blue-link:hover {
+    text-decoration: underline;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.grey-button {
+    background-color: #ccc;
+    color: #333;
+}
+
+.blue-button {
+    background-color: #0078d7;
+    color: #fff;
+}
